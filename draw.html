@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style>
+		body {
+			width: 960px;
+			height: 2000;
+			margin: 10px auto;
+			font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		.center {
+			text-align: center;
+			padding-top: 150px;
+			padding-left: 70px;
+			margin-left: 30px;
+			font-size: 30px;
+		}
+	</style>
+	<title>Draw</title>
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<!-- Theme CSS -->
+	<link href="css/agency.min.css" rel="stylesheet"> </head>
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display --><a class="navbar-brand page-scroll" href="#page-top">PlayAid</a>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden">
+					<a href="#page-top"></a>
+				</li>
+				<li> <a class="page-scroll" href="index.html">PlayAid</a> </li>
+				<li> <a class="page-scroll" href="leap-motion-demos-master/d3.js/index.html">Express</a> </li>
+				<li> <a class="page-scroll" href="music.html">Music</a> </li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+
+<body>
+	<p class='center'>Move your hand to draw with Leap Motion</p>
+	<div id='container'> </div>
+	<script src="js/lib/leap.js"></script>
+	<script src='js/lib/d3.v3.min.js'></script>
+	<script src='draw.js'></script>
+</body>
+
+</html>

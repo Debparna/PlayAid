@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Play the piano</title>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<!-- Theme CSS -->
+	<link href="css/agency.min.css" rel="stylesheet">
+	<style>
+		.key {
+			display: inline-block;
+			width: 80px;
+			height: 200px;
+			background-color: #ccc;
+		}
+		
+		h1 {
+			padding-top: 100px;
+			text-align: center;
+		}
+	</style>
+</head>
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display --><a class="navbar-brand page-scroll" href="#page-top">PlayAid</a>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden">
+					<a href="#page-top"></a>
+				</li>
+				<li> <a class="page-scroll" href="index.html">PlayAide</a> </li>
+				<li> <a class="page-scroll" href="draw.html">Draw</a> </li>
+				<li> <a class="page-scroll" href="leap-motion-demos-master/d3.js/index.html">Express</a> </li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+
+<body>
+	<h1>
+          Play the piano
+        </h1>
+	<div style="width:730px; margin: 0px auto;"> <span id="key0" class="key"></span> <span id="key1" class="key"></span> <span id="key2" class="key"></span> <span id="key3" class="key"></span> <span id="key4" class="key"></span> <span id="key5" class="key"></span> <span id="key6" class="key"></span> <span id="key7" class="key"></span> </div>
+	<ol id="keys"> </ol>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="audio.js"></script>
+	<script src="piano.js"></script>
+	<script src="leap.js"></script>
+</body>
+
+</html>
